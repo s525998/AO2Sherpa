@@ -1,0 +1,74 @@
+
+h1{
+	font-size: 30px;
+	
+}
+body{
+    background-image: url("Light-Wood-Background-Wallpaper.jpg");
+	margin : 25px;
+	padding: 65px;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#head {
+	font-style: italic;
+	font-weight: bold;
+	text-decoration:none;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+}
+	
+.back, .plans, .Interest, #address {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: black;
+	font-size: 16px;
+	text-align: center;
+}
+
+#background, #interests, #plans,footer {
+	font-family: Georgia, serif;
+	font-size: 20px;
+	text-align: center;
+	}
+
+.cal, .down {
+	border-style: solid;
+	margin-top: 50px;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+
+}
+
+.contact{
+	border-style: solid;
+	margin-top: 50px;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+
+}
+strong{
+	font-size: 25px;
+	color: black;
+}
+li {
+	font-size: 15px;
+	color: black;
+}
+#ho, #hol, fieldset{
+	color:black;
+}
+
+#result{
+	text-align: center;
+	font-size: 30px;
+	color: black;
+}
+#name{
+	color: white;
+}

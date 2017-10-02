@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>
+		Weekly Salary Calculator
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<link type="text/css" rel="stylesheet" href="Sherpa_Pemba.css"/>
+
+</head>
+
+<body>
+		<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+				  <div class="navbar-header">
+				  </div>
+				  <ul class="nav navbar-nav">
+						<li> A02Sherpa-Pemba </li>
+					<li ><a href="Sherpa_Pemba.html">Home</a></li>
+					<li class="active"><a href="Choice.html">Calculate Weekly Salary</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				  </ul>
+				</div>
+				</nav>
+			<div class="container-fliud">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="cal">
+									<H1> To calculte your weekly salary </H1>
+									<br/>
+									<br>
+									<h4 id="ho"> Worked Hours: <input type="text" id="hour" /> </h4>
+									<br>
+									<h4 id="hol"> Wage per Hour: <input type="text" id="wage" /> </h4>
+									<br>
+									<br>
+									<button type="button" onclick="sal()"> Calculate </button><br>
+									<p id="result"></p>
+								</div> 
+							
+								<div class="down">
+									<Strong> Note :</Strong>
+									<ul>
+										<li> Hour cannot be negative </li>
+										<li> Wages cannot be negative </li>
+										<li> Hour cannot be greater than 100 hours</li> 
+										<li> Wage cannot be greater than 50 dollar</li>
+											
+											</ul> 
+								</div>
+					</div>
+				</div>
+			</div>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+				<script src="A02P.js"></script>
+</body>
+
+</html>
